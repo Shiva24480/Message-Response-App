@@ -1,0 +1,47 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container h1{
+    margin-bottom: 1rem;
+}
+
+.login-container{
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.348);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.login-container input{
+    padding: 0.5rem 1rem;
+    margin: 0.6rem;
+    width: 80%;
+    border-radius: 0.5rem;
+}
+
+.mobile-input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile-input-container input{
+    width: 100%;
+    padding: 0.5rem 3rem;
+}
+
+.login-button{
+    padding: 0.5rem;
+    width: 88%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}

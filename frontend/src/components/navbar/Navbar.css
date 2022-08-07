@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 0rem 2rem;
+}
+
+.nav-logout{
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.231);
+}
+
+.nav-logout:hover{
+    transform: scale(1.02);
+}
